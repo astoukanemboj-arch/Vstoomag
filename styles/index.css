@@ -17,6 +17,7 @@
     margin: 0 auto;
     border-radius: 40px;
     gap: 40px;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.3);
 }
 .photo{
    width: 250px;

@@ -16,8 +16,7 @@ main{
     justify-content: center;
     align-items: center;
     gap: 30px;
-   
-
+   box-shadow: 0 20px 60px rgba(0,0,0,0.3);
 }
 .photo{
    width: 300px;
@@ -32,7 +31,7 @@ main{
     display: block;
 }
 .titre-apropos{
-    font-size: 70px;
+    font-size: 60px;
     font-weight: bold;
     color:transparent ;
     background: linear-gradient(90deg, #6F4E37 25%, #3A5A40 75%);
@@ -55,7 +54,7 @@ main{
     border-radius: 30px;
     padding: 30px;
     padding-top: 10px;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
     margin-top: 20px;
     margin-right: 70px;
 }
@@ -64,12 +63,14 @@ main{
     letter-spacing: 0;
 }
 .btn{
-    position:absolute;
+    position:relative;
     bottom: 30px;
-    right: 30px;
-    margin-top: 25px;
-    margin-left: 50px;
+    right: 80px;
+    margin-top: 50px;
+    margin-left: 600px;
+    margin-right: 65px;
     padding-top: 30px;
+    padding-right: 10px;
     padding: 10px 20px;
     background-color: #A67B5B;
     text-decoration: none;
@@ -79,9 +80,9 @@ main{
     transition: all 0.3s ease;
     display: block;
     align-self: flex-end;
-   
     gap: 10px;
     color: white;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.3);
 }
 .btn:hover{
     background-color: #6F4E37;

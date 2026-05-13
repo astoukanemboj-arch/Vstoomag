@@ -1,118 +1,3 @@
-/*.profile-card {
-    background-color: #3A5A40; 
-    padding: 30px;
-    border-radius: 40px;
-    text-align: center;
-    max-width: 400px;
-    border: 1px solid rgba(255, 255, 255, 0.05);
-    margin-top: 80px;
-    margin-left: 80px;
-}
-
-.profile-image-box {
-    border-radius: 30px;
-    overflow: hidden;
-    margin-bottom: 25px;
-}
-
-.profile-image-box img {
-    width: 100%;
-    display: block;
-}
-
-.profile-content h2 {
-    color: wheat;
-    font-size: 28px;
-    margin-bottom: 5px;
-}
-
-.username {
-    color: white;
-    margin-bottom: 25px;
-}
-.social-links {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    margin-bottom: 10px;
-    margin-top: 0;
-}
-.social-links img{
-    margin-top: 0;
-    width: 40px;
-    height: auto;
-    display: block;
-    
-}
-.social-circle {
-    width: 20px;
-    height: 20px;
-    border-radius: 50%; 
-    padding: 30px;
-    background: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: wheat;
-    text-decoration: none;
-    transition: 0.3s;
-}
-
-.social-circle:hover {
-    background: wheat;
-    color: black;
-}
-.contact-me-btn {
-    display: block;
-    background: white;
-    color: black;
-    padding: 10px;
-    border-radius: 20px;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.credentials-container {
-    display: flex;
-    gap: 60px; 
-    max-width: 1200px;
-    margin: 50px auto;
-    padding: 20px;
-    align-items: flex-start;
-    background-color: #3A5A40;
-}
-
-.credentials-text-content {
-    flex: 2; 
-}
-.credentials-text-content h3 {
-    color: white;
-    font-size: 18px;
-    letter-spacing: 2px;
-    margin-bottom: 25px;
-    text-transform: uppercase;
-}
-.credentials-text-content p {
-    color: #bcbcbc;
-    line-height: 1.6;
-    margin-bottom: 40px;
-    font-size: 16px;
-}
-.exp-item {
-    margin-bottom: 30px;
-}
-
-.exp-item .date {
-    color: #808080;
-    font-size: 14px;
-}
-
-.exp-item h4 {
-    color: #4b6efd; 
-    font-size: 18px;
-    margin: 5px 0;
-}*/
-/* CONTENEUR GLOBAL */
 .cv-container {
     display: flex;
     max-width: 1100px;
@@ -236,4 +121,21 @@ footer img{
 }
 .description{
     color: black;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 10px;
+    background: #333; /* Barre vide */
+    border-radius: 5px;
+    margin: 10px 0;
+    overflow: hidden;
+}
+
+.progress-fill {
+    height: 100%;
+    width: 0; /* Commence à 0 pour l'animation */
+    background: linear-gradient(90deg, #6F4E37 /*#4b6efd*/, #A67B5B /*#82b1ff*/);
+    border-radius: 5px;
+    transition: width 1.5s ease-in-out; /* Animation fluide */
 }
