@@ -1,0 +1,222 @@
+/*.profile-card {
+    background-color: #3A5A40; 
+    padding: 30px;
+    border-radius: 40px;
+    text-align: center;
+    max-width: 400px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    margin-top: 80px;
+    margin-left: 80px;
+}
+
+.profile-image-box {
+    border-radius: 30px;
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+
+.profile-image-box img {
+    width: 100%;
+    display: block;
+}
+
+.profile-content h2 {
+    color: wheat;
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+.username {
+    color: white;
+    margin-bottom: 25px;
+}
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.social-links img{
+    margin-top: 0;
+    width: 40px;
+    height: auto;
+    display: block;
+    
+}
+.social-circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%; 
+    padding: 30px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: wheat;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.social-circle:hover {
+    background: wheat;
+    color: black;
+}
+.contact-me-btn {
+    display: block;
+    background: white;
+    color: black;
+    padding: 10px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.credentials-container {
+    display: flex;
+    gap: 60px; 
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    align-items: flex-start;
+    background-color: #3A5A40;
+}
+
+.credentials-text-content {
+    flex: 2; 
+}
+.credentials-text-content h3 {
+    color: white;
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+.credentials-text-content p {
+    color: #bcbcbc;
+    line-height: 1.6;
+    margin-bottom: 40px;
+    font-size: 16px;
+}
+.exp-item {
+    margin-bottom: 30px;
+}
+
+.exp-item .date {
+    color: #808080;
+    font-size: 14px;
+}
+
+.exp-item h4 {
+    color: #4b6efd; 
+    font-size: 18px;
+    margin: 5px 0;
+}*/
+/* CONTENEUR GLOBAL */
+.cv-container {
+    display: flex;
+    max-width: 1100px;
+    margin: 50px auto;
+    background: /*#3A5A40*/ /*#6F4E37*/#FAF9F6; /* Blanc cassé élégant */
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+}
+
+/* SIDEBAR SOMBRE */
+.cv-sidebar {
+    width: 350px;
+    background: #A67B5B /*#1a1a1a*/;
+    color: white;
+    padding: 40px;
+}
+
+.cv-contact-list{
+    display: flex;
+    flex-direction: row;
+}
+.cv-profile-img img {
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+.cv-sidebar-section {
+    margin-bottom: 40px;
+}
+
+.cv-sidebar h2 {
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.cv-divider {
+    width: 40px;
+    height: 3px;
+    background: #A67B5B; /* Ton bleu fétiche */
+    margin-bottom: 15px;
+}
+
+/* CONTENU DROITE CLAIR */
+.cv-main-content {
+    flex: 1;
+    padding: 60px;
+    color: black;
+}
+.cv-header{
+    background-color: #5E8061;/*#4F6F52*/
+}
+.cv-header h1 {
+    font-size: 48px;
+    margin-bottom: 5px;
+    color:/*#6F4E37*/  black/*#1a1a1a*/;
+}
+
+.cv-header h1 span {
+    color: #6F4E37 /*#2F2F2F*/;
+}
+
+.cv-job-title {
+    font-size: 16px;
+    letter-spacing: 4px;
+    color: #6F4E37;
+    margin-bottom: 50px;
+}
+
+/* SYSTÈME DE TIMELINE (LIGNE DU TEMPS) */
+.cv-section h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.cv-timeline-item {
+    padding-left: 25px;
+    border-left: 2px solid  #e0e0e0;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.cv-timeline-item::before {
+    content: "";
+    position: absolute;
+    left: -7px;
+    top: 5px;
+    width: 12px;
+    height: 12px;
+    background:#A67B5B ;
+    border-radius: 50%;
+}
+
+.cv-date {
+    font-size: 13px;
+    color: #888;
+    font-weight: bold;
+}
+
+.cv-timeline-item h3 {
+    font-size: 18px;
+    margin: 5px 0;
+    color: #6F4E37;
+}

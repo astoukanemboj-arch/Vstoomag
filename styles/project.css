@@ -1,0 +1,101 @@
+.projects-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.projects-main-title {
+    font-size: 60px;
+    font-weight: bold;
+    color:transparent ;
+    background: linear-gradient(90deg,#3A5A40  25%, #6F4E37 75%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-transform: uppercase;
+    /*margin-top: 30px;
+    padding-top: 30px;*/
+    margin-left: 410px;
+    display: flex;
+    justify-content: baseline;
+}
+
+/* LA GRILLE */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 colonnes égales */
+    grid-template-rows: repeat(3, 1fr);
+    gap: 25px; /* Espace entre les cartes */
+    padding: 20px;
+}
+
+/* LA CARTE */
+.project-card {
+    background-color: #6F4E37;
+    padding: 20px;
+    border-radius: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    display: flex;
+    flex-direction: column;
+}
+
+.project-image img {
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+
+/* ALIGNEMENT TEXTE ET ICÔNE */
+.project-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.text-content span {
+    color: #808080;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.text-content h3 {
+    color: white;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.project-icon {
+    opacity: 0.5;
+    background-color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: all 0.3s ease;
+}
+.project-icon:hover{
+    background-color: wheat;
+}
+#un{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+}
+#deux{
+   display: flex;
+   flex-direction: column;
+   margin-top: 50px;
+  /* grid-column-start:2 ;
+    grid-column-end:3 ;
+     grid-row-start:2 ;
+      grid-row-end: 3;*/
+}
+#trois{
+     display: flex;
+   flex-direction: column;
+   margin-top: 50px;
+    /*grid-column-start:3 ;
+    grid-column-end:4 ;
+     grid-row-start:2 ;
+      grid-row-end: 3;*/
+}
+
