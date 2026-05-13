@@ -220,3 +220,15 @@
     margin: 5px 0;
     color: #6F4E37;
 }
+.github{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+footer img{
+     width: 40px;
+    height: auto;
+    display: block;
+}

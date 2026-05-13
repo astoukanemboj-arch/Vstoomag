@@ -65,6 +65,16 @@
 
 section{
     color: #3A5A40;
-    
-
+}
+.github{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+footer img{
+     width: 40px;
+    height: auto;
+    display: block;
 }
