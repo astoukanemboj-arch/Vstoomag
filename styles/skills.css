@@ -126,14 +126,14 @@
 /* SIDEBAR SOMBRE */
 .cv-sidebar {
     width: 350px;
-    background: #A67B5B /*#1a1a1a*/;
+    background: #3A5A40 /*#A67B5B*/ /*#1a1a1a*/;
     color: white;
     padding: 40px;
 }
 
 .cv-contact-list{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 .cv-profile-img img {
     width: 100%;
@@ -166,7 +166,8 @@
     color: black;
 }
 .cv-header{
-    background-color: #5E8061;/*#4F6F52*/
+    background-color: #5E8061 /*#5E8061*/;/*#4F6F52*/
+    text-align: center;
 }
 .cv-header h1 {
     font-size: 48px;
@@ -175,14 +176,15 @@
 }
 
 .cv-header h1 span {
-    color: #6F4E37 /*#2F2F2F*/;
+    color: brown /*#6F4E37*/ /*#2F2F2F*/;
 }
 
 .cv-job-title {
     font-size: 16px;
     letter-spacing: 4px;
-    color: #6F4E37;
+    color: black;
     margin-bottom: 50px;
+    text-align: center;
 }
 
 /* SYSTÈME DE TIMELINE (LIGNE DU TEMPS) */
@@ -193,7 +195,7 @@
 
 .cv-timeline-item {
     padding-left: 25px;
-    border-left: 2px solid  #e0e0e0;
+    border-left: 2px solid #888 /*#e0e0e0*/;
     position: relative;
     margin-bottom: 30px;
 }
@@ -231,4 +233,7 @@ footer img{
      width: 40px;
     height: auto;
     display: block;
+}
+.description{
+    color: black;
 }
